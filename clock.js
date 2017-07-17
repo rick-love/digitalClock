@@ -5,7 +5,11 @@
 
 // create div with id for time;
 
-// connect time to be 
+// connect time to be shown
+
+//add 0 to numbers less than 10
+
+//create css to center
 
 
 
