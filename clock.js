@@ -24,6 +24,17 @@ function digitalClock(){
 	var month = date.getMonth();
 	var day = date.getDay();
 
+// adding zero's
+	if(second < 10){
+		second = "0" + second;
+	}
+	if(minute < 10){
+		minute = "0" + minute;
+	}
+	if(hour < 10){
+		hour = "0" + hour;
+	}
+
 //concats time and date variables
 	var currentTime = '#'+ hour + minute + second;
 	
